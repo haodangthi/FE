@@ -1,0 +1,24 @@
+﻿Hypertext Transfer Protocol
+    GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n
+        [Expert Info (Chat/Sequence): GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n]
+            [GET /wireshark-labs/HTTP-wireshark-file4.html HTTP/1.1\r\n]
+            [Severity level: Chat]
+            [Group: Sequence]
+        Request Method: GET
+        Request URI: /wireshark-labs/HTTP-wireshark-file4.html
+        Request Version: HTTP/1.1
+    Host: gaia.cs.umass.edu\r\n
+    Connection: keep-alive\r\n
+    Cache-Control: max-age=0\r\n
+    Upgrade-Insecure-Requests: 1\r\n
+    User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) coc_coc_browser/82.0.144 Chrome/76.0.3809.144 Safari/537.36\r\n
+    Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3\r\n
+    Accept-Encoding: gzip, deflate\r\n
+    Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,vi;q=0.6\r\n
+    If-None-Match: "2ca-5953d25d1970b"\r\n
+    If-Modified-Since: Sat, 19 Oct 2019 05:59:03 GMT\r\n
+    \r\n
+    [Full request URI: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html]
+    [HTTP request 1/1]
+    [Response in frame: 52]
+
