@@ -1,0 +1,23 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th,
+td {
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+.col_header {
+  padding-right: 50px;
+}
+h5 {
+  margin: 0;
+  padding-bottom: 0px;
+}
+.nobullets_list {
+  list-style-type: none;
+}
+.list_zero {
+  list-style-type: decimal-leading-zero;
+}
