@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  padding: 100px 0 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: grey;
+}
+.topone_main_header {
+  font-size: 100px;
+  color: white;
+  text-align: center;
+  padding: 200px 0 200px;
+}
+.about_us__section {
+  /* display: flex; */
+}
+
+.offer {
+  /* width: 20%; */
+  padding: 0 5px 0 5px;
+}
+
+.about_us__rightside {
+  display: flex;
+  justify-content: space-between;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+ul {
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header_section {
+  width: 100%;
+
+  background: black;
+  color: white;
+}
+
+.nav__item {
+  font-size: 22px;
+  margin: 20px 20px 0 0;
+}
+section {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.dance_instructors__list {
+  justify-content: space-between;
+}
+
+figure {
+  margin: 0;
+}
+figcaption {
+  text-align: center;
+  margin: 10px auto;
+}
+.dance_instructors__list__item img {
+  width: 350px;
+  height: auto;
+}
+.videos {
+  display: flex;
+  justify-content: space-between;
+}
+
+video,
+iframe,
+embed {
+  width: 370px;
+  height: 280px;
+}
+.timetable {
+}
+td {
+  padding: 15px 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.form__item input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+}
+button {
+  border: none;
+  width: 150px;
+
+  height: 50px;
+  background: cornflowerblue;
+  color: #fff;
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.sm_icon {
+  color: #fff;
+  display: block;
+  font-size: 26px;
+
+  margin: 50px 0 50px 0;
+}
+
+.social_media_list li:not(:last-child) {
+  margin-right: 40px;
+}
+footer {
+  width: 100%;
+  background: #000;
+  color: #fff;
+}
+
+audio {
+  margin: 10px 20px 140px 0;
+}
+.details {
+  margin-bottom: 40px;
+}
+dialog {
+  position: relative;
+}
+.btn_close {
+  cursor: pointer;
+  margin: 7px 10px 0 0;
+  padding: 5px;
+  width: 14px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  right: 0;
+  top: 0;
+  position: absolute;
+  font-size: 14px;
+  background: #ccc;
+}
