@@ -1,0 +1,113 @@
+
+.header_section {
+    width: 100%;
+    background: black;
+    color: white;
+  }
+  nav{
+    display: flex;
+  }
+  .nav{transition: all 0.4s ease 0s;
+}
+  
+  .nav__item {
+        box-sizing: border-box;
+    font-size: 19px;
+    position: relative;
+    padding: 20px 20px 0 0px; 
+    
+  }
+  .nav__item:nth-child(4){
+    padding-right: 0  ;
+  }
+  .membership__cards__menu a{
+      padding-left: 20px;
+  }
+ .membership__cards__menu__items{
+     position: absolute;
+ }
+  .nav__item:hover{
+    background: yellow;
+  }
+
+
+  .membership__cards__menu:hover 
+  .membership__cards__menu__item {
+    display: block;
+    box-sizing: border-box;
+    
+    
+    
+  }
+
+  
+  .membership__cards__menu {
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+  }
+  
+  .membership__cards__menu__item {
+    font-size: 22px;
+    position: relative;
+    display: none;
+    color: black;
+    background: yellow;
+    padding: 20px  20px 0 20px; 
+    box-sizing: border-box;
+    width: 150%;
+    
+  }
+  
+  .lessons_menu_top {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    
+    top: 0%;
+    z-index: 2;
+  }
+  
+ 
+  
+  .lessons_menu_top li {
+    
+    color: white;
+    background: orange;
+    width: 200%;
+    height: 100%;
+   
+  }
+  .membership__cards__menu__item:hover {
+    background: #becf35;
+  }
+  .membership__cards__menu__item:hover 
+  .lessons_menu_top {
+    display: block;
+    
+    left:100%;
+    color: black;
+    background: yellow;
+    
+  }
+  .lessons_menu_top li:hover {
+    background: #becf35;
+    
+  }
+
+  .topone_main_header{
+  font-size: 100px;
+    color: white;
+    text-align: center;
+    padding: 150px 0 200px;
+}
+  
+
+  .logo{
+    padding: 25px 40px 0 20px;
+  }
+
+  .burger-menu_input,.burger-menu{
+    display: none;
+  }
+

@@ -1,0 +1,19 @@
+.about_us__section {
+}
+
+.offer {
+  padding: 0 5px 0 5px;
+}
+.about_us__img img{
+	max-width: 100%;
+
+}
+
+.about_us__rightside {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+ 

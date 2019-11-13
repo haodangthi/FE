@@ -1,0 +1,28 @@
+.social_media {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .sm_icon {
+    color: #fff;
+    display: block;
+    font-size: 26px;
+  
+    margin: 50px 0 50px 0;
+  }
+  
+  .social_media_list li:not(:last-child) {
+    margin-right: 40px;
+  }
+  footer {
+    width: 100%;
+    background: #000;
+    color: #fff;
+  }
+
+  .details {
+    margin-bottom: 40px;
+  }
+  .map{
+    padding-top: 50px;
+  }
