@@ -1,0 +1,5 @@
+@font-face {
+ font-family: "Lato";
+ src: url("Lato-Regular.ttf") format("ttf"),
+        url("Lato-Black.ttf") format("ttf");
+}
