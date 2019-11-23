@@ -1,0 +1,15 @@
+.dance_instructors__list {
+    justify-content: space-between;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  figcaption {
+    text-align: center;
+    margin: 10px auto;
+  }
+  .dance_instructors__list__item img {
+    width: 300px;
+    height: auto;
+  }

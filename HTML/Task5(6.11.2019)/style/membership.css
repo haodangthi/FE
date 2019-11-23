@@ -1,0 +1,31 @@
+/*------------------MEMBERSHIP_CARD__SECTION--------------------*/
+
+.membership__cards {
+}
+.card_types {
+   
+}
+.card_type_top {
+}
+.memb_card {
+    
+}
+.memb_card_photo img {
+  width: 300px;
+}
+.memb_card_description {
+  flex-direction: column;
+  align-items: center;
+}
+.price {
+}
+.btn__purchase {
+}
+.card_type_bro ,
+.card_type_top,
+.card_type_unlimitted {
+    display: flex;
+  justify-content: space-between;
+}
+
+
