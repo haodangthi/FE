@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*h1{font:700 300% monospace}h1,nav h2{text-align:center}a:hover,h2{color:#b12}a{color:#38b;text-decoration:none}body,nav ul{margin:0 auto}body{width:50%;max-width:55em;font:95%/1.5 sans-serif;color:#311}body:after,body:before{position:fixed;content:'';display:block;top:0;left:-8px;width:23%;height:110%;background:repeating-linear-gradient(45deg,#bcd,#bcd 30px,#cde 30px,#cde 60px);box-shadow:inset 0 -12px 24px #000}body:after{right:-8px;left:auto;background:repeating-linear-gradient(135deg,#bcd,#bcd 30px,#cde 30px,#cde 60px)}nav{position:fixed;top:0;left:0;right:0;max-height:100%;width:200px;background:rgba(50,50,50,.8);overflow:auto}nav ul{padding:3%}nav li,nav h2{font-size:90%;margin-bottom:10px}nav h2,nav a{color:#fff}nav a:first-child{color:#333;display:block;background:#fff;border-radius:3px;padding:2px 5px;font-weight:700}nav a:first-child:hover{background:#b12;color:#fff}nav a:last-child:before{content:'by ';display:inline;color:#ccc}footer{border-top:1px solid #aaa;text-align:center;font-size:85%}*/
 
 @import url("font.css");
@@ -153,3 +154,161 @@ ol {
     transform: scale(1);
   }
 }
+||||||| merged common ancestors
+=======
+/*h1{font:700 300% monospace}h1,nav h2{text-align:center}a:hover,h2{color:#b12}a{color:#38b;text-decoration:none}body,nav ul{margin:0 auto}body{width:50%;max-width:55em;font:95%/1.5 sans-serif;color:#311}body:after,body:before{position:fixed;content:'';display:block;top:0;left:-8px;width:23%;height:110%;background:repeating-linear-gradient(45deg,#bcd,#bcd 30px,#cde 30px,#cde 60px);box-shadow:inset 0 -12px 24px #000}body:after{right:-8px;left:auto;background:repeating-linear-gradient(135deg,#bcd,#bcd 30px,#cde 30px,#cde 60px)}nav{position:fixed;top:0;left:0;right:0;max-height:100%;width:200px;background:rgba(50,50,50,.8);overflow:auto}nav ul{padding:3%}nav li,nav h2{font-size:90%;margin-bottom:10px}nav h2,nav a{color:#fff}nav a:first-child{color:#333;display:block;background:#fff;border-radius:3px;padding:2px 5px;font-weight:700}nav a:first-child:hover{background:#b12;color:#fff}nav a:last-child:before{content:'by ';display:inline;color:#ccc}footer{border-top:1px solid #aaa;text-align:center;font-size:85%}*/
+
+@import url("font.css");
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  transition: 1s;
+  background: url("../img/green-potted-plant-on-white-ceramic-vase-1166644 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  width: 70%;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: absolute;
+  width: 30%;
+  right: 70%;
+  animation-name: navbar;
+  animation-duration: 1s;
+  /*animation-delay: 1s;*/
+  /*animation-iteration-count: 1;*/
+}
+
+@keyframes navbar {
+  0% {
+    right: 100%;
+  }
+  100% {
+    right: 70%;
+  }
+}
+
+article {
+  font-size: 18px;
+}
+article header {
+  position: static;
+}
+
+nav {
+  overflow: scroll;
+  height: 90vh;
+  position: relative;
+
+  /*right: 100%;*/
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+}
+a:first-child {
+  color: #000;
+  font-size: 1.2em;
+}
+header h1 {
+  text-align: center;
+}
+header nav h2 {
+  position: absolute;
+  top: 0%;
+  left: -68%;
+  transition: 1s;
+}
+header:hover h2 {
+  left: 30%;
+}
+nav ul {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul li {
+  margin: 40px;
+  list-style-type: none;
+  width: 150px;
+  height: 150px;
+  background: pink;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+article header {
+  width: 90%;
+}
+
+article header,
+article section,
+footer {
+  margin: 30px;
+}
+
+article header h2,
+article section h2 {
+  font-size: 1.5em;
+  text-align: center;
+  color: purple;
+
+  animation-name: scaleH2;
+  animation-duration: 1s;
+}
+footer {
+  position: sticky;
+  width: 100%;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: white;
+}
+abbr,
+section a {
+  color: violet;
+}
+ol {
+  position: relative;
+}
+
+@keyframes scaleH2 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+>>>>>>> 6e608f48b47dad5c9559793cc58c9e3f2a26e3ab

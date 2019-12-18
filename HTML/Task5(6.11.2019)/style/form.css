@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .form__item input {
     width: 300px;
     height: 30px;
@@ -39,3 +40,47 @@
   }
   
   
+||||||| merged common ancestors
+=======
+.form__item input {
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+  }
+  
+  textarea {
+    width: 300px;
+    height: 100px;
+  }
+  button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background: cornflowerblue;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+  /* -----------------DIALOG MODAL------------------- */
+  dialog {
+    position: relative;
+  }
+  
+  .btn_close {
+    cursor: pointer;
+    margin: 7px 10px 0 0;
+    padding: 5px;
+    width: 14px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    right: 0;
+    top: 0;
+    position: absolute;
+    font-size: 14px;
+    background: #ccc;
+  }
+  
+  
+>>>>>>> 6e608f48b47dad5c9559793cc58c9e3f2a26e3ab
