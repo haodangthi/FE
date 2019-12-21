@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*-------------SLIDER--------------*/
 .gallery_section__wrapper{
   background: pink;
@@ -55,62 +55,3 @@
     transform: rotate(180deg);
     left: 90%;
   }
-||||||| merged common ancestors
-=======
-/*-------------SLIDER--------------*/
-.gallery_section__wrapper{
-  background: pink;
-  width: 100%;
-}
-.gallery_section {
-    width: 100%;
-    padding-bottom: 100px;
-    /*background: blue;*/
-  }
-  /*.gallery_images div:not(:first-child){
-    display: none;
-  }*/
-  
-  .gallery_images {
-    position: relative;
-  }
-  .gallery_image {
-    /*position: absolute;*/
-  }
-  .gallery_image img {
-    max-width:100%;
-    max-height: 500px;
-  }
-  .images div:not(:first-child) {
-    display: none;
-  }
-  
-  /*.gallery_image::before,.gallery_image::after{
-    content:  ;
-    display: block;
-    width: 30px;  
-    height: 30px; 
-    border-radius: 50%;
-    background: #fff;
-  
-  }
-  
-  .gallery_image::after{
-   content: "";
-  }
-  */
-  .left-btn img,
-  .right-btn img {
-    filter: invert(93%) sepia(0%) saturate(7496%) hue-rotate(285deg) brightness(111%) contrast(100%);
-    cursor: pointer;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    top: 50%;
-    left: 10%;
-  }
-  .right-btn img {
-    transform: rotate(180deg);
-    left: 90%;
-  }
->>>>>>> 6e608f48b47dad5c9559793cc58c9e3f2a26e3ab

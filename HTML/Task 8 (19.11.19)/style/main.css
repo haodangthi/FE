@@ -1,556 +1,506 @@
-.flex {
-  display: flex;
+
+.flex{
+	display: flex;
+
 }
-.back_big {
-  width: 768px;
-  height: 565px;
-  background: url(../images/back-big.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.back_big{
+	width: 768px;
+	height: 565px;
+	background: url(../images/back-big.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.game__window {
-  position: relative;
+.game__window{
+	position: relative;
+
 }
 .window__wrapper {
-  position: relative;
-  padding-top: 34px;
-  justify-content: center;
+	position: relative;
+	padding-top: 34px;
+	justify-content:center;
+	
 }
-.half_window {
-  position: relative;
+.half_window{
+	
+position: relative;
 }
-.half_window__img,
+
+
+.half_window__img ,
 .right__window,
 .input__btn {
-  width: 326px;
-  height: 433px;
-  background: url(../images/bg_item.png);
+	
+	width: 326px;
+	height: 433px;
+	background: url(../images/bg_item.png);
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
 }
 
 .input__container {
-  position: absolute;
-  top: 24px;
+
+	position: absolute;
+	top: 24px;
 }
 .input__wrapper {
-  position: relative;
+	position: relative;
 }
 .input__btn {
-  background: url(../images/money.png);
-  width: 18px;
-  height: 17px;
-  border: 1px solid #fff;
-  position: absolute;
-  top: 2px;
-  left: 2px;
+	background: url(../images/money.png);
+	width: 18px;
+	height: 17px;
+	border: 1px solid #fff;
+	position: absolute;
+	top:2px;
+	left:2px;
 }
-.input__wrapper input {
-  margin-bottom: 2px;
-  background: #000;
-  color: white;
-  width: 178px;
-  height: 16px;
+.input__wrapper input{
+
+    margin-bottom: 2px;
+    background: #000;
+    color: white;
+    width: 178px;
+    height: 16px;
 }
 
-.left__window {
-  position: relative;
+.left__window{
+	position: relative;
 }
-.half_window__img {
-  display: flex;
-  justify-content: center;
-}
+.half_window__img{
+	display: flex;
+	justify-content: center;}
 
-.right__window {
-  background: url(../images/bg_item-right.png);
+.right__window{
+	background: url(../images/bg_item-right.png);
 }
 .right__window .grid__container {
-  margin-left: 2px;
-  display: grid;
-  grid-template-rows: repeat(6, 1fr);
-  grid-template-columns: repeat(10, 1fr);
-  width: 296px;
 
+		margin-left:2px; 
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+  grid-template-columns: repeat(10,1fr);
+  width: 296px;
+ 
   padding-top: 0px;
   margin: 5px 0 0px 17px;
   height: 190px;
+ 
+
 }
 
-.grid__container {
-  margin-left: 2px;
-  display: grid;
-  grid-template-rows: repeat(10, 1fr);
-  grid-template-columns: repeat(10, 1fr);
+.grid__container{
+	margin-left:2px; 
+    display: grid;
+    grid-template-rows: repeat(10,1fr);
+  grid-template-columns: repeat(10,1fr);
   width: 296px;
   height: 295px;
   margin-top: 80px;
   background: #000;
   position: relative;
-}
-.grid__square {
-  padding: 9px;
 
-  border: 1px solid grey;
+ 
+
+
+}
+.grid__square{
+	  padding: 9px;
+      
+  
+	  border: 1px solid grey;
+
 }
 
-.circle__btn {
-  background: url(../images/gear-btn.png);
-  width: 30px;
-  height: 30px;
+
+
+
+.circle__btn{
+	background: url(../images/gear-btn.png);
+	width: 30px;
+	height: 30px;
 }
+
+
+
+
+
+
+
+
 
 .shop__window {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 18px 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 18px 0;
+
 }
 
 .shop__aside {
 }
-.num-btn {
-  display: flex;
+.num-btn{
+	display: flex;
 }
-.first-btn,
+.first-btn,.second-btn {
+	    border: 1px solid white;
+    width: 29px;
+    height: 12px;
+    color: white;
+    background: black;
+    font-size: 11px;
+    text-align: center;
+
+}
 .second-btn {
-  border: 1px solid white;
-  width: 29px;
-  height: 12px;
-  color: white;
-  background: black;
-  font-size: 11px;
-  text-align: center;
 }
-.second-btn {
-}
+
 
 .rect__item {
-  background: url(../images/sword.png);
-  width: 62px;
-  height: 117px;
+	background: url(../images/sword.png);
+	width: 62px;
+	height: 117px;
+
+
 }
 .square__item {
-  background: url(../images/shoes.png);
-  width: 56px;
-  height: 59px;
+	background: url(../images/shoes.png);
+	width: 56px;
+	height: 59px;
+
 }
 
-.rect__item,
-.square__item {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.rect__item ,
+.square__item{
+		background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
 }
 .shop__middle {
-  display: flex;
-  flex-direction: column;
-  align-content: space-between;
-  align-items: center;
+	   
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
 }
 .items__1line,
 .items__3line {
-  display: flex;
+	display: flex;
 }
 .items__1line {
-  margin-left: 22px;
+margin-left: 22px;
 }
-.ring span,
-.item2 span {
-  width: 58px;
-  height: 26px;
-
-  background: url(../images/belt.png);
-  position: absolute;
-}
-
-.item2,
-.ring,
-.gold {
-  width: 58px;
-  height: 58px;
-  background: black;
-  border: 1px solid white;
-  position: relative;
-}
-.item2 {
-  height: 30px;
+.ring span,.item2 span{
+	
+	width: 58px;
+	height: 26px;
+	
+	background: url(../images/belt.png);
+	position: absolute;
 }
 
-.ring span {
-  top: 25%;
+.item2,.ring,.gold {
+	width: 58px;
+	height: 58px;
+	background: black;
+	border: 1px solid white;
+	position: relative;
 }
-.gold {
-  width: 24px;
-  height: 29px;
-  align-self: flex-end;
+.item2{
+	height: 30px;
+
 }
-.gold span {
-  width: 24px;
-  height: 29px;
-  position: absolute;
-  background: url(../images/coulomb.png);
+
+.ring span{top: 25%}
+.gold{
+	width: 24px;
+		height: 29px;
+		align-self: flex-end;
+
+
+}
+.gold span{
+	    width: 24px;
+		height: 29px;
+		position: absolute;
+		background: url(../images/coulomb.png);
+		
 }
 .armor {
-  background: url(../images/armor.png);
-  width: 58px;
-  height: 87px;
+	background: url(../images/armor.png);
+	width: 58px;
+	height: 87px;
+
 }
 
 .item1 span {
-  width: 28px;
-  height: 28px;
-  background: url(../images/gold-ring.png);
+	width: 28px;
+	height: 28px;
+	background: url(../images/gold-ring.png);
 
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: absolute;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+
 }
 
-.item1 {
-  width: 30px;
-  height: 30px;
-  position: relative;
-  background: black;
-  border: 1px solid white;
+.item1{
+   
+   width: 30px;
+	height: 30px;
+	position: relative;
+	background:black;
+	border: 1px solid white;
+
+
+
+
 }
 
 .item3 {
 }
-
-.runa,
-.runa-fire,
-.runa-pear,
-.runa-time,
-.runa-cristall,
-.circle__btn,
-.bottom__btn__red__left,
-.bottom__btn__red__right,
-.circle__red,
-.circle__blue,
-.gold-book,
-.blue-book,
-.cube {
-  width: 9px;
-  height: 9px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+ 
+.runa,.runa-fire,.runa-pear,.runa-time,.runa-cristall,.circle__btn,.bottom__btn__red__left ,
+.bottom__btn__red__right,.circle__red,.circle__blue,.gold-book,.blue-book,.cube{
+	 width: 9px;
+    height: 9px;
+ 	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.runa {
-  background: url(../images/runa.png);
+ .runa{
+ 	background: url(../images/runa.png);
+   
+ }
+ .runa-fire{
+ 	background: url(../images/runa-fire.png);
+ }
+
+ .runa-pear{
+ 	background: url(../images/runa-pear.png);
+ }
+
+ .runa-time{
+ 	background: url(../images/runa-time.png);
+ }
+
+ .runa-cristall{
+ 	background: url(../images/runa-cristall.png);
+ 	width: 1px;
+    height: 8px;
+    border: none;
+ }
+
+ .gold-book{
+ 	background: url(../images/gold-book.png);
+ 	height: 51px;
+ 	width: 28px;
+ 	position: absolute;
+ 	grid-column-start: 10;
+   grid-column-end: 11;
+   grid-row-start: 3;
+   grid-row-end: 5;
+ }
+
+.blue-book{
+	background: url(../images/blue-book.png);
+	width: 26px;
+	height: 57px;
+	position: absolute;
+	grid-column-start: 10;
+   grid-column-end: 11;
+   grid-row-start: 1;
+   grid-row-end: 3;
 }
-.runa-fire {
-  background: url(../images/runa-fire.png);
+.cube{
+	background: url(../images/cube.png);
+	width: 51px;
+	height: 47px;
+	margin: 5px;
+	position: absolute;
+	grid-column-start: 1;
+   grid-column-end: 3;
+   grid-row-start: 1;
+   grid-row-end: 3;
+	
 }
 
-.runa-pear {
-  background: url(../images/runa-pear.png);
+
+
+
+
+
+
+
+
+ .circle__btn{
+	background: url(../images/gear-btn.png);
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	    bottom: 15px;
+    right: 18px;
+}
+.right__window .circle__btn{
+	bottom: 14px;
+    left: 18px;
+    border: 1px solid white;
 }
 
-.runa-time {
-  background: url(../images/runa-time.png);
+
+.right__window  .input__wrapper 
+{
+	position: absolute;
+    bottom: 12px;
+    left: 73px;
 }
 
-.runa-cristall {
-  background: url(../images/runa-cristall.png);
-  width: 1px;
-  height: 8px;
-  border: none;
-}
 
-.gold-book {
-  background: url(../images/gold-book.png);
-  height: 51px;
-  width: 28px;
-  position: absolute;
-  grid-column-start: 10;
-  grid-column-end: 11;
-  grid-row-start: 3;
-  grid-row-end: 5;
-}
 
-.blue-book {
-  background: url(../images/blue-book.png);
-  width: 26px;
-  height: 57px;
-  position: absolute;
-  grid-column-start: 10;
-  grid-column-end: 11;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-.cube {
-  background: url(../images/cube.png);
-  width: 51px;
-  height: 47px;
-  margin: 5px;
-  position: absolute;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.circle__btn {
-  background: url(../images/gear-btn.png);
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  bottom: 15px;
-  right: 18px;
-}
-.right__window .circle__btn {
-  bottom: 14px;
-  left: 18px;
-  border: 1px solid white;
-}
-
-.right__window .input__wrapper {
-  position: absolute;
-  bottom: 12px;
-  left: 73px;
-}
-
-.back_big {
-  position: relative;
+.back_big{
+	position: relative;
 }
 .back_big__bottom {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
 }
-.back_big__bottom__left,
+.back_big__bottom__left ,
 .back_big__bottom__right {
-  display: flex;
-  align-items: flex-end;
+	display: flex;
+	align-items: flex-end;
 }
 .back_big__bottom__right {
-  display: flex;
+	display: flex;
 }
 .circle__red {
-  background: url(../images/circle-red.png);
+	background: url(../images/circle-red.png);
 
-  width: 100px;
-  height: 100px;
+	width: 100px;
+	height: 100px;
 }
 
 .bottom__btn__red__left {
-  background: url(../images/bottom-left.jpg);
+	background: url(../images/bottom-left.jpg);
+
+
 }
 
 .bottom__btn__red__right {
-  background: url(../images/bottom-right.jpg);
+	background: url(../images/bottom-right.jpg);
+
 }
 
-.bottom__btn__red__left,
-.bottom__btn__red__right {
-  width: 51px;
-  height: 48px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
+.bottom__btn__red__left ,
+.bottom__btn__red__right{
+	width: 51px;
+	height: 48px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} 
+
 
 .bottom__btn__plus {
-  background: url(../images/btn-add.png);
-  width: 30px;
-  height: 31px;
-  margin: 0 10px 0px 10px;
-  margin-bottom: 5px;
+	background: url(../images/btn-add.png);
+	width: 30px;
+	height: 31px;
+	margin: 0 10px 0px 10px;
+	margin-bottom: 5px;
+
 }
 
-.level {
-  margin: 0 0 5px 10px;
+
+
+.level{
+	margin: 0 0 5px 10px;
+
 }
 .progressbar {
-  width: 120px;
-  height: 8px;
-  background: black;
-  border: 1px solid white;
-  position: relative;
+	width: 120px;
+	height: 8px;
+	background: black;
+	border: 1px solid white;
+	position: relative;
+
 }
 
-.progressbar span {
-  position: absolute;
-  width: 50px;
-  height: 6px;
-  background: white;
-  left: 0;
-  top: 1px;
+.progressbar span{
+	position: absolute;
+    width: 50px;
+	height: 6px;
+	background: white;
+	left: 0;
+	top:1px;
 }
-.energy__bar {
-  width: 120px;
-  height: 23px;
-  background: orange;
-  border: 1px solid white;
-  position: relative;
-  margin-top: 5px;
+.energy__bar{
+	width: 120px;
+	height: 23px;
+	background: orange;
+	border: 1px solid white;
+	position: relative;margin-top: 5px;
 }
-.energy__bar::after {
-  content: url(../images/man.png);
-  width: 16px;
-  height: 19px;
-  position: absolute;
-  left: 0;
-  top: 0;
+.energy__bar::after{
+	content: url(../images/man.png) ;
+	width: 16px;
+	height: 19px;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+
 }
 
 .purchased__items {
-  display: flex;
-  background: black;
-  margin: 0 10px 0 0;
-  margin-bottom: 5px;
+	display: flex;
+	background: black;
+	margin: 0 10px 0 0;
+	margin-bottom: 5px;
+
 }
 
-.life {
-  background: url(../images/life.png);
-  width: 25px;
-  height: 29px;
-  border: 2px solid white;
-  position: relative;
+
+.life{
+	background: url(../images/life.png);
+	width: 25px;
+	height: 29px;
+	border: 2px solid white;
+	position: relative;
+	
 }
 
-.life::after {
-  content: "2";
-  position: absolute;
-  font-size: 14px;
-  left: 3px;
-  bottom: -2px;
-  color: white;
+.life::after{
+	content: '2';
+    position: absolute;
+    font-size: 14px;
+    left: 3px;
+    bottom: -2px;
+    color: white;
 }
 .circle__blue {
-  background: url(../images/circle-blue.png);
-  width: 100px;
-  height: 100px;
+	background: url(../images/circle-blue.png);
+	width: 100px;
+	height: 100px;
 }
 
-.circle__blue,
-.circle__red {
-  margin: 0 5px 10px 5px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.circle__blue,.circle__red{
+	margin: 0 5px 10px 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
-.footer__center {
-  background: url(../images/footer-center.png);
-  width: 43px;
-  height: 43px;
-  align-self: flex-end;
-}
-
-@media screen and (min-width: 900px) {
-  .game__window {
-    display: flex;
-    justify-content: center;
-  }
-  .back_big {
-    width: 954px;
-    height: 700px;
-  }
-
-  .circle__btn,
-  .input__btn,
-  .half_window__img,
-  .right__window,
-  .left__window {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .input__container {
-    top: 61px;
-  }
-  .half_window__img {
-    margin-top: 36px;
-    width: 374px;
-    height: 505px;
-  }
-
-  .right__window {
-    margin-top: 36px;
-    width: 375px;
-    height: 505px;
-  }
-  .input__wrapper {
-  }
-  .input__btn {
-    top: 0px;
-    width: 22px;
-    height: 22px;
-  }
-
-  .input__wrapper input {
-    width: 208px;
-    height: 21px;
-  }
-  .grid__container {
-    width: 344px;
-    height: 339px;
-    margin-top: 99px;
-  }
-
-  .right__window .grid__container {
-    width: 344px;
-    padding-top: 0px;
-    margin: 14px 0 0px 17px;
-    height: 221px;
-  }
-  .shop__window {
-    padding: 0 18px 0;
-    padding-top: 20px;
-  }
-  .item2,
-  .ring,
-  .gold,
-  .item1 {
-    margin: 0 10px 10px 0;
-  }
-  .circle__btn {
-    width: 40px;
-    height: 40px;
-    bottom: 15px;
-    right: 17px;
-  }
-  .footer__center {
-    width: 56px;
-    height: 56px;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  .runa,
-  .runa-fire,
-  .runa-pear,
-  .runa-time,
-  .runa-cristall {
-    width: 14px;
-    height: 14px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .right__window .circle__btn {
-    bottom: 9px;
-  }
-
-  .rect__item:hover,
-  .square__item:hover,
-  .item1:hover,
-  .item2:hover,
-  .armor:hover,
-  .gold:hover,
-  .ring:hover {
-    opacity: 0.7;
-  }
+.footer__center{
+	background: url(../images/footer-center.png);
+	width: 43px;height: 43px;
+	align-self: flex-end;
 }

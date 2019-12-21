@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .social_media {
     display: flex;
     justify-content: center;
@@ -27,34 +27,3 @@
   .map{
     padding-top: 50px;
   }
-||||||| merged common ancestors
-=======
-.social_media {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .sm_icon {
-    color: #fff;
-    display: block;
-    font-size: 26px;
-  
-    margin: 50px 0 50px 0;
-  }
-  
-  .social_media_list li:not(:last-child) {
-    margin-right: 40px;
-  }
-  footer {
-    width: 100%;
-    background: #000;
-    color: #fff;
-  }
-
-  .details {
-    margin-bottom: 40px;
-  }
-  .map{
-    padding-top: 50px;
-  }
->>>>>>> 6e608f48b47dad5c9559793cc58c9e3f2a26e3ab
